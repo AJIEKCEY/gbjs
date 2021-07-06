@@ -79,7 +79,7 @@ function someOperations(a,b) {
         return mathOperation(a,b,'-');
     else if (a < 0 && b < 0)
         return mathOperation(a,b,'*');
-    else if (a < 0 && b >= 0 || b < 0 && a >= 0)
+    else
         return mathOperation(a,b,'+');
 }
 
