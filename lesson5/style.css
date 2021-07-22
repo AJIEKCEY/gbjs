@@ -1,0 +1,51 @@
+#content{
+    display: flex;
+    justify-content: center;
+}
+
+#chessBoard {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000;
+}
+
+.chessRow{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.rowSpan{
+    position: absolute;
+    left: -20px;
+    top: 30px;
+}
+
+.chessCell {
+    align-items: center;
+    position: relative;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+}
+
+.chessRow:nth-child(1) .colSpan{
+    position: absolute;
+    left: 30px;
+    top: -20px;
+}
+
+.chessFigure {
+    font-size: 46px;
+    line-height: 44px;
+}
+
+.chessRow:nth-child(even) .chessCell:nth-child(odd) {
+    background-color: gray;
+}
+
+.chessRow:nth-child(odd) .chessCell:nth-child(even) {
+    background-color: gray;
+}
