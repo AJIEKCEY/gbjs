@@ -1,0 +1,15 @@
+header {
+    min-height: 80px;
+}
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+header{
+    max-height: 50px;
+}

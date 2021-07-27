@@ -1,8 +1,8 @@
-import  basket  from './_data/basket.js'
+import  products  from './_data/Products.js'
 
-console.log(basket);
+console.log(products);
 
-console.log(basket.getCountBasketPrice());
+console.log(products.getCountBasketPrice());
 
 /**
  * Parse number by position
